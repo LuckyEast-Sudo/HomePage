@@ -2,18 +2,10 @@
   <footer>
     <div class="power" v-show="!store.playerState">
       <span
-        >Copyright&nbsp;&copy;&nbsp;{{ fullYear }}
-        <a href="https://luckyworld.eu.org/">东东</a>
+        >Copyright&nbsp;&copy;&nbsp;{{ fullYear }}&nbsp;LuckyEast
       </span>
       <!-- 以下信息请不要修改哦 -->
-      <span class="hidden"
-        >&nbsp;&amp;&nbsp;Made&nbsp;by&nbsp;<a
-          :href="config.github"
-          target="_blank"
-        >
-          {{ config.author }}
-        </a></span
-      >
+      <span class="hidden">&nbsp;&amp;&nbsp;Made&nbsp;by&nbsp;LuckyEast</span>
     </div>
     <div class="lrc" v-show="store.playerState">
       <music-one theme="filled" size="18" fill="#efefef" />
