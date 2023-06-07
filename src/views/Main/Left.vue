@@ -1,14 +1,14 @@
 <template>
   <div :class="store.mobileOpenState ? 'left hidden' : 'left'">
     <Message />
-    <SocialLinks />
+  <!-- SocialLinks / -->
   </div>
 </template>
 
 <script setup>
 import { mainStore } from "@/store";
 import Message from "@/components/Message/index.vue";
-import SocialLinks from "@/components/SocialLinks/index.vue";
+// import SocialLinks from "@/components/SocialLinks/index.vue";
 const store = mainStore();
 </script>
 
