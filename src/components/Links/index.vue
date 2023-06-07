@@ -32,29 +32,31 @@ import { ref } from "vue";
 import { Icon } from "@vicons/utils";
 import {
   Link,
-  Index,
   Blog,
-  Temp,
+  Cloud,
+  Compass,
+  Book,
+  Flask,
 } from "@vicons/fa";
 
 // 网站链接数据
 // 建议不要超出6个，若需要超出请自行调整样式
 let linksData = [
   {
-    icon: Index,
-    name: "主页",
-    link: "https://luckyeast.eu.org/",
-  },
-  {
     icon: Blog,
     name: "博客",
-    link: "https://pan.imsyy.top/",
+    link: "https://luckyeast.eu.org",
   },
   {
-    icon: Temp,
-    name: "其他",
-    link: "https://music.imsyy.top/",
-  }
+    icon: Compass,
+    name: "起始页",
+    link: "https://luckyworld.eu.org",
+  },
+  {
+    icon: Flask,
+    name: "Temp",
+    link: "https://luckydong.eu.org",
+  },
 ];
 
 // 链接跳转
