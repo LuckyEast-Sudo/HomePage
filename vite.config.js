@@ -63,9 +63,9 @@ export default ({
         ],
       },
       manifest: {
-        "name": "东东の主页",
-        "short_name": "东东の主页",
-        "description": "东东的个人主页",
+        "name": "LuckyEast's Blog",
+        "short_name": "LuckyEast's Blog",
+        "description": "永远年轻，永远热泪盈眶",
         "display": "LuckyEast",
         "start_url": "/",
         "theme_color": "#424242",
