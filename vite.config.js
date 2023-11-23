@@ -63,10 +63,10 @@ export default ({
         ],
       },
       manifest: {
-        "name": "LuckyEast's Blog",
-        "short_name": "LuckyEast's Blog",
+        "name": "LuckyWorld",
+        "short_name": "LuckyWorld",
         "description": "永远年轻，永远热泪盈眶",
-        "display": "LuckyEast",
+        "display": "LuckyWorld",
         "start_url": "/",
         "theme_color": "#424242",
         "background_color": "#424242",
