@@ -45,17 +45,17 @@ let linksData = [
   {
     icon: Blog,
     name: "博客",
-    link: "https://LuckyEast-Sudo.github.io",
+    link: "https://luckyEast.eu.org",
   },
   {
     icon: Compass,
     name: "起始页",
-    link: "https://LuckyEast-Sudo.github.io",
+    link: "https://luckyworld.eu.org",
   },
   {
     icon: Flask,
     name: "Temp",
-    link: "https://LuckyEast-Sudo.github.io",
+    link: "/",
   },
 ];
 
